@@ -1,0 +1,29 @@
+[2022-08-06 23:54:20 060] [DEBUG] -h: V_YUEFEIDU-MB0 -pid: 32037  msg: '[requestId:filter] any-exception.filter.js(line: 34, column: 24): 
+ TypeError: (0 , rxjs_1.lastValueFrom) is not a function
+    at RouterResponseController.transformToResult (/Users/duyuefei/Nest项目模板/node_modules/@nestjs/core/router/router-response-controller.js:33:45)
+    at /Users/duyuefei/Nest项目模板/node_modules/@nestjs/core/router/router-execution-context.js:174:52
+    at /Users/duyuefei/Nest项目模板/node_modules/@nestjs/core/router/router-execution-context.js:47:19
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async /Users/duyuefei/Nest项目模板/node_modules/@nestjs/core/router/router-proxy.js:9:17
+    at async /Users/duyuefei/Nest项目模板/node_modules/@nestjs/core/router/router-explorer.js:177:17' 
+[2022-08-06 23:54:20 064] [ERROR] -h: V_YUEFEIDU-MB0 -pid: 32037  msg: '[requestId:af366fc7-8b94-424d-8872-f0aab88a02b4] any-exception.filter.js(line: 57, column: 24): 
+ 
+    requestId: af366fc7-8b94-424d-8872-f0aab88a02b4,
+    timestamp: 2022-08-06 23:54:20,
+    ip: ::1,
+    reqUrl: /user/findUser,
+    reqMethod: POST,
+    httpCode: SERVER_ERR,
+    params: {},
+    query: {},
+    body: {"username":"john"},
+    statusCode: 500,
+    errorMsg: undefined,
+  ' 
+[2022-08-06 23:55:48 442] [INFO] -h: V_YUEFEIDU-MB0 -pid: 32632  msg: '[requestId:e4c5e12e-50d4-4590-95ad-c4df36af5209] log.service.js(line: 22, column: 24): 
+ {
+  requestId: 'e4c5e12e-50d4-4590-95ad-c4df36af5209',
+  timeCost: '3ms',
+  userInfo: {},
+  logInfo: { username: 'john' }
+}' 

@@ -1,0 +1,14 @@
+[2022-08-06 23:54:20 064] [ERROR] -h: V_YUEFEIDU-MB0 -pid: 32037  msg: '[requestId:af366fc7-8b94-424d-8872-f0aab88a02b4] any-exception.filter.js(line: 57, column: 24): 
+ 
+    requestId: af366fc7-8b94-424d-8872-f0aab88a02b4,
+    timestamp: 2022-08-06 23:54:20,
+    ip: ::1,
+    reqUrl: /user/findUser,
+    reqMethod: POST,
+    httpCode: SERVER_ERR,
+    params: {},
+    query: {},
+    body: {"username":"john"},
+    statusCode: 500,
+    errorMsg: undefined,
+  ' 
